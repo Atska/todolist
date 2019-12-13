@@ -1,13 +1,13 @@
 # To Do List
-To do list using Javascript using
+To do list written in Javascript using
 
-node.js/express as the backend
+<b>node.js/express</b> as the backend,
 
-html/css as the frontend
+<b>html/css</b> as the frontend,
 
-EJS for templating and connect frontend with backend
+<b>EJS</b> for templating and connect frontend with backend,
 
-mongoose for a Object Document Mapper with a MongoDB noSql - Database
+<b>mongoose</b> for a Object Document Mapper with a MongoDB noSql - Database
 
 
 # Demo
