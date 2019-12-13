@@ -1,10 +1,9 @@
-//jshint esversion:6
 const express = require("express");
 const bodyParser = require("body-parser");
 const getDate = require(__dirname + "/getDate.js");
 const mongoose = require("mongoose");
 
-// Settings
+// Settings - mongoose, EJS, body-parser, Express
 mongoose.connect('mongodb://localhost:27017/listdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -59,7 +58,7 @@ app.get("/", function (req, res) {
     });
 });
 
-// Adds items when 
+// Adds items when push the submit button
 app.post("/", function (req, res) {
     const itemName = req.body.NewTasks;
 
