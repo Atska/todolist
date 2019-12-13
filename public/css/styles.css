@@ -1,0 +1,109 @@
+html {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  min-height: 1000px;
+  font-family: "Courier New", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+  text-align: center;
+}
+
+#headerlist {
+  text-align: center;
+  border-bottom: 1px solid #F1F1F1;
+  font-size: 40;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to right, #ad5389, #3c1053);
+  background-blend-mode: saturation
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+input[type="checkbox"] {
+  margin: 30px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+  background-color: #dfbdfa;
+  border-radius: 6px;
+  border: 1px solid #c584f3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 22px;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: 10px;
+  border-color: black;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+
+}
+
+::placeholder {
+  color: black;
+  opacity: 30%;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  opacity: 80%;
+}
+.errorpage {
+  text-align: center;
+  color: black
+}
